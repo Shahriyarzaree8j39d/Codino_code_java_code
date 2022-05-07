@@ -1,0 +1,7 @@
+[
+  {
+    "title": "میزان درصد باتری | Battery Level",
+    "image": "https://8pic.ir/uploads/Negar-۲۰۲۲۰۵۰۷-۱۲۵۹۰۶.png",
+    "code": "BatteryManager bm \u003d (BatteryManager)getSystemService(BATTERY_SERVICE);\r\nint batLevel \u003d bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);\r\ntextview1.setText(Integer.toString(batLevel));"
+  }
+]
