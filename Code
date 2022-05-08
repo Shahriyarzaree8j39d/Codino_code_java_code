@@ -3,5 +3,10 @@
     "title": "میزان درصد باتری | Battery Level",
     "image": "https://8pic.ir/uploads/Negar-۲۰۲۲۰۵۰۷-۱۲۵۹۰۶.png",
     "code": "BatteryManager bm \u003d (BatteryManager)getSystemService(BATTERY_SERVICE);\r\nint batLevel \u003d bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);\r\ntextview1.setText(Integer.toString(batLevel));"
+  },
+  {
+    "image": "https://8pic.ir/uploads/Negar-۲۰۲۲۰۵۰۷-۱۲۵۹۰۶.png",
+    "title": "میزان شفافیت | Set Alpha",
+    "code": "linear1.setOnClickListener(new View.OnClickListener() {\r\n\t\t\t@Override\r\n\t\t\tpublic void onClick(View _v) { \r\n\t\t\t\tlinear2.setAlpha((float)(0.5d));\r\n\t\t\t}\r\n\t\t});"
   }
 ]
